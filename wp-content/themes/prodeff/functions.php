@@ -224,3 +224,4 @@ $dh_luxury_theme = new DH_Luxury_Theme();
 
 if ( ! isset( $content_width ) )
 	$content_width = 1200;
+

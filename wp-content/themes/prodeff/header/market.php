@@ -205,7 +205,7 @@ if(defined('WOOCOMMERCE_VERSION')){
 										'walker' 			=> new DH_Mega_Walker
 									) );
 								else:
-									echo '<ul class="nav navbar-nav primary-nav"><li><a href="' . home_url( '/' ) . 'wp-admin/nav-menus.php">' . esc_html__( 'No menu assigned!', 'luxury-wp' ) . '</a></li></ul>';
+									echo '<ul class="nav navbar-nav primary-nav"><li><a href="' . home_url( '/' ) . 'wp-admin/nav-menus.php">' . esc_html__( 'No menu assigned!', 'luxury-wp' ) .'</a></li></ul>';
 								endif;
 								?>
 							</div>

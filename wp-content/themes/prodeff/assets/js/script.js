@@ -2109,4 +2109,10 @@ window.DH = window.DH || {};
         }, 500);
     });
 
+    // jQuery(document).ready(function($){
+    //     jQuery('a').removeAttr('title');
+    // });
+
+
+
 }(jQuery);
