@@ -26,7 +26,7 @@ define('DB_NAME', 'prodeff_db');
 define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', '');
+define('DB_PASSWORD', 'samba1272$');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
@@ -78,6 +78,17 @@ $table_prefix  = 'wp_';
  * @link https://codex.wordpress.org/Debugging_in_WordPress
  */
 define('WP_DEBUG', false);
+define('FS_METHOD', 'direct');
+define( 'WP_ALLOW_MULTISITE', true );
+
+define('MULTISITE', true);
+define('SUBDOMAIN_INSTALL', false);
+define('DOMAIN_CURRENT_SITE', 'local.prodeff.com');
+define('PATH_CURRENT_SITE', '/');
+define('SITE_ID_CURRENT_SITE', 1);
+define('BLOG_ID_CURRENT_SITE', 1);
+
+
 
 /* That's all, stop editing! Happy blogging. */
 
