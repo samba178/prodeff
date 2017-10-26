@@ -2350,3 +2350,5 @@ Stack trace:
 [26-Oct-2017 06:09:31 UTC] PHP Notice:  WC_Product::get_rating_html is <strong>deprecated</strong> since version 3.0! Use wc_get_rating_html instead. in E:\work\prodeff-web-shop\wp-includes\functions.php on line 3831
 [26-Oct-2017 06:09:31 UTC] PHP Notice:  WC_Product::get_categories is <strong>deprecated</strong> since version 3.0! Use wc_get_product_category_list instead. in E:\work\prodeff-web-shop\wp-includes\functions.php on line 3831
 [26-Oct-2017 06:09:31 UTC] PHP Notice:  WC_Product::get_tags is <strong>deprecated</strong> since version 3.0! Use wc_get_product_tag_list instead. in E:\work\prodeff-web-shop\wp-includes\functions.php on line 3831
+[26-Oct-2017 06:12:39 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in E:\work\prodeff-web-shop\wp-content\plugins\woocommerce-product-bundles\includes\class-wc-pb-display.php on line 11
+[26-Oct-2017 06:19:35 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in E:\work\prodeff-web-shop\wp-includes\wp-db.php on line 1887
