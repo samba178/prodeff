@@ -21,7 +21,7 @@ if ( get_option( 'woocommerce_enable_shipping_calc' ) === 'no' || ! WC()->cart->
 
 <form class="woocommerce-shipping-calculator" action="<?php echo esc_url( WC()->cart->get_cart_url() ); ?>" method="post">
 
-	<h3 class="woo-cart-shipping"><a href="#" class="shipping-calculator-button"><?php esc_html_e( 'Estimate shipping & tax', 'luxury-wp' ); ?></a></h3>
+	<h3 class="woo-cart-shipping"><a href="#" class="shipping-calculator-button"><?php esc_html_e( 'Estimate shipping', 'luxury-wp' ); ?></a></h3>
 
 
 	<section class="shipping-calculator-form" style="display:none;">

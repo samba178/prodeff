@@ -1259,7 +1259,7 @@ function dh_post_nav() {
 			<?php if($prev_link):?>
 				<div class="prev-post">
 					<span>
-					<?php echo __('Previous article','luxury-wp')?>
+					<?php echo __('Previous project','luxury-wp')?>
 					</span>
 					<?php echo dh_print_string($prev_link)?>
 				</div>
@@ -1270,7 +1270,7 @@ function dh_post_nav() {
 			<?php if(!empty($next_link)):?>
 				<div class="next-post">
 					<span>
-						<?php echo __('Next article','luxury-wp')?>
+						<?php echo __('Next project','luxury-wp')?>
 					</span>
 					<?php echo dh_print_string($next_link)?>
 				</div>
@@ -3145,3 +3145,19 @@ function dh_landing_hero_content(){
 	<?php
 	return apply_filters('dh_landing_hero_content', ob_get_clean());
 }
+
+add_filter('pre_get_posts', 'query_post_type');
+function query_post_type($query) {
+  if( is_category() ) {
+    $post_type = get_query_var('post_type');
+    if($post_type)
+        $post_type = $post_type;
+    else
+        $post_type = array('nav_menu_item', 'post', 'projects'); // don't forget nav_menu_item to allow menus to work!
+    $query->set('post_type',$post_type);
+    return $query;
+    }
+}
+
+
+add_filter('show_admin_bar', '__return_false');

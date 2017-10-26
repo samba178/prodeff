@@ -44,7 +44,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 					<?php do_action( 'woocommerce_login_form_start' ); ?>
 		
 					<p class="form-row form-row-wide">
-						<label for="username"><?php esc_html_e( 'Username or email address', 'luxury-wp' ); ?> <span class="required">*</span></label>
+						<label for="username"><?php esc_html_e( 'Email address', 'luxury-wp' ); ?> <span class="required">*</span></label>
 						<input type="text" class="input-text" name="username" id="username" value="<?php if ( ! empty( $_POST['username'] ) ) echo esc_attr( $_POST['username'] ); ?>" />
 					</p>
 					<p class="form-row form-row-wide">
@@ -61,6 +61,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 						</label>
 						<a class="pull-right" href="<?php echo esc_url( wc_lostpassword_url() ); ?>"><?php esc_html_e( 'Lost your password?', 'luxury-wp' ); ?></a>
 						<br><br>
+						<input type="hidden" name="redirect" value="<?php echo $_SERVER['HTTP_REFERER']; ?>" />
 						<input type="submit" class="button woocommerce-customer-form-btn" name="login" value="<?php esc_attr_e( 'Login', 'luxury-wp' ); ?>" />
 					</p>
 		

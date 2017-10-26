@@ -36,9 +36,9 @@ if($pagination === 'infinite_scroll'){
 <div id="main" class="content-container">
 	<div class="<?php dh_container_class() ?>">
 		<div class="row">
-			<?php do_action('dh_left_sidebar')?>
-			<?php do_action('dh_left_sidebar_extra')?>
-			<div class="<?php echo esc_attr($main_class) ?>" role="main">
+			<!--<?php do_action('dh_left_sidebar')?>
+			<?php do_action('dh_left_sidebar_extra')?>-->
+			<div class="col-xs-12" role="main">
 				<div class="main-content">
 					<?php 
 					$itemSelector = '';
@@ -222,8 +222,8 @@ if($pagination === 'infinite_scroll'){
 				</div>
 				
 			</div>
-			<?php do_action('dh_right_sidebar_extra')?>
-			<?php do_action('dh_right_sidebar')?>
+			<!--<?php do_action('dh_right_sidebar_extra')?>
+			<?php do_action('dh_right_sidebar')?>-->
 		</div>
 	</div>
 </div>

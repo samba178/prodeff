@@ -94,7 +94,29 @@
 				dh_social($footer_social,true,false,false);
 			?>
 			</div>
+			
 		<?php }?>
+		<!-- start-->
+        	<?php global $sitepress;
+            $lang = $sitepress->get_current_language(); ?>
+        	<!-- start-->
+        	<?php if($lang=='en') { ?>
+			<div style="
+                text-align: center;
+                padding: 10px;
+                background: #333;
+            ">If you find any bugs or any other problems with the website, please <a href="contact-us/?lang=en">contact us </a>right away and we will fix this at our end. Thank you for your patience and understanding.</div>
+            <?php } ?>	
+            
+            <?php if($lang=='sv') { ?>
+			<div style="
+                text-align: center;
+                padding: 10px;
+                background: #333;
+            ">Om du hittar några problem eller buggar med hemsidan, var vänlig  <a href="/contact-us">kontakta oss  </a>så ska vi kan reparera problemet med omedelbar verkan. Tack för hjälpen!</div>
+            <?php } ?>
+			
+			<!-- end -->
 		<div class="footer-info clearfix">
 			<div class="<?php dh_container_class() ?>">
 				<div class="row">

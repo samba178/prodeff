@@ -209,7 +209,7 @@ function wc_product_dropdown_categories( $args = array(), $deprecated_hierarchic
 		'orderby'            => 'name',
 		'selected'           => $current_product_cat,
 		'menu_order'         => false,
-		'option_select_text' => __( 'Select a category', 'woocommerce' ),
+		'option_select_text' => __( 'Category', 'woocommerce' ),
 	);
 
 	$args = wp_parse_args( $args, $defaults );

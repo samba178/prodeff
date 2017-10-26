@@ -5642,6 +5642,3 @@ function wp_cache_get_last_changed( $group ) {
 
 	return $last_changed;
 }
-
-
-

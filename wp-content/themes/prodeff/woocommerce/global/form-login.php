@@ -25,7 +25,7 @@ if ( is_user_logged_in() ) {
 		<?php do_action('dh_facebook_login_button');?>
 	<?php endif;?>
 	<p class="form-row form-row-first">
-		<label for="username"><?php esc_html_e( 'Username or email', 'luxury-wp' ); ?> <span class="required">*</span></label>
+		<label for="username"><?php esc_html_e( 'Email', 'luxury-wp' ); ?> <span class="required">*</span></label>
 		<input type="text" class="input-text" name="username" id="username" />
 	</p>
 	<p class="form-row form-row-last">

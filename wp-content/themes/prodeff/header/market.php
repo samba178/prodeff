@@ -12,7 +12,7 @@ if(defined('WOOCOMMERCE_VERSION')){
 	<div class="topbar">
 		<div class="<?php dh_container_class() ?> topbar-wap">
 			<div class="row">
-				<div class="col-sm-6 col-left-topbar">
+				<div class="col-sm-10 col-left-topbar">
 					<div class="left-topbar">
             			<?php
             			
@@ -41,7 +41,7 @@ if(defined('WOOCOMMERCE_VERSION')){
             			
 					</div>
 				</div>
-				<div class="col-sm-6 col-right-topbar">
+				<div class="col-sm-2 col-right-topbar">
 					<div class="right-topbar">
 						<?php 
 							dh_icl_languages_dropdown(false);
@@ -68,6 +68,85 @@ if(defined('WOOCOMMERCE_VERSION')){
 		</div>
 	</div>
 	<?php endif;?>
+	<?php global $sitepress;
+$lang = $sitepress->get_current_language(); ?>
+	<!-- start-->
+	<?php if($lang=='en') { ?>
+	<div class="container"><div class="vc_row wpb_row vc_row-fluid services-fields vc_custom_1508303522507"><div class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-4 vc_col-md-3 vc_col-has-fill"><div class="vc_column-inner vc_custom_1508220788889"><div class="wpb_wrapper"><div class="vc_row wpb_row vc_inner vc_row-fluid vc_custom_1453612257987"><div class="wpb_column vc_column_container vc_col-sm-12 vc_col-has-fill"><div class="vc_column-inner vc_custom_1507886213153"><div class="wpb_wrapper"><div class="vc_icon_element vc_icon_element-outer vc_custom_1507886368777 pull-left vc_icon_element-align-left">
+	<div class="vc_icon_element-inner vc_icon_element-color-custom vc_icon_element-size-lg vc_icon_element-style- vc_icon_element-background-color-grey">
+		<span class="vc_icon_element-icon fa fa-credit-card" style="color:#017bc4 !important"></span></div>
+</div>
+<h5 style="color: #818286;text-align: left" class="vc_custom_heading vc_custom_1507372681787">SAFE PAYMENT</h5>
+	<div class="wpb_text_column wpb_content_element  vc_custom_1508218802837">
+		<div class="wpb_wrapper">
+			<p style="color: #818286; font-size: 12px;">Pay safe with our different payment options</p>
+
+		</div>
+	</div>
+</div></div></div></div></div></div></div><div class="vc_col-has-fill wpb_column vc_column_container vc_col-sm-6 vc_col-lg-4 vc_col-md-3"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="vc_row wpb_row vc_inner vc_row-fluid vc_custom_1453612257987"><div class="wpb_column vc_column_container vc_col-sm-12 vc_col-has-fill"><div class="vc_column-inner vc_custom_1507886246439"><div class="wpb_wrapper"><div class="vc_icon_element vc_icon_element-outer vc_custom_1507886508404 pull-left vc_icon_element-align-left">
+	<div class="vc_icon_element-inner vc_icon_element-color-custom vc_icon_element-size-lg vc_icon_element-style- vc_icon_element-background-color-grey">
+		<span class="vc_icon_element-icon fa fa-truck" style="color:#017bc4 !important"></span></div>
+</div>
+<h5 style="color: #818286;text-align: left" class="vc_custom_heading vc_custom_1507373700264">FREE SHIPPING</h5>
+	<div class="wpb_text_column wpb_content_element  vc_custom_1507373581163">
+		<div class="wpb_wrapper">
+			<p style="color: #818286; font-size: 12px;">For order over 1500 SEK</p>
+
+		</div>
+	</div>
+</div></div></div></div></div></div></div><div class="vc_col-has-fill wpb_column vc_column_container vc_col-sm-6 vc_col-lg-4 vc_col-md-3"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="vc_row wpb_row vc_inner vc_row-fluid vc_custom_1453612257987"><div class="wpb_column vc_column_container vc_col-sm-12 vc_col-has-fill"><div class="vc_column-inner vc_custom_1507886269431"><div class="wpb_wrapper"><div class="vc_icon_element vc_icon_element-outer vc_custom_1507886539572 pull-left vc_icon_element-align-left">
+	<div class="vc_icon_element-inner vc_icon_element-color-custom vc_icon_element-size-lg vc_icon_element-style- vc_icon_element-background-color-grey">
+		<span class="vc_icon_element-icon fa fa-phone-square" style="color:#017bc4 !important"></span></div>
+</div>
+<h5 style="color: #818286;text-align: left" class="vc_custom_heading vc_custom_1507373718131">CUSTOMER SUPPORT</h5>
+	<div class="wpb_text_column wpb_content_element  vc_custom_1508218916797">
+		<div class="wpb_wrapper">
+			<p style="color: #818286; font-size: 12px;">Always personal support</p>
+
+		</div>
+	</div>
+</div></div></div></div></div></div></div></div></div>
+	<?php } ?>
+	<?php if($lang=='sv') { ?>
+	<div class="container"><div class="vc_row wpb_row vc_row-fluid services-fields vc_custom_1508303522507"><div class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-4 vc_col-md-3 vc_col-has-fill"><div class="vc_column-inner vc_custom_1508220788889"><div class="wpb_wrapper"><div class="vc_row wpb_row vc_inner vc_row-fluid vc_custom_1453612257987"><div class="wpb_column vc_column_container vc_col-sm-12 vc_col-has-fill"><div class="vc_column-inner vc_custom_1507886213153"><div class="wpb_wrapper"><div class="vc_icon_element vc_icon_element-outer vc_custom_1507886368777 pull-left vc_icon_element-align-left">
+	<div class="vc_icon_element-inner vc_icon_element-color-custom vc_icon_element-size-lg vc_icon_element-style- vc_icon_element-background-color-grey">
+		<span class="vc_icon_element-icon fa fa-credit-card" style="color:#017bc4 !important"></span></div>
+</div>
+<h5 style="color: #818286;text-align: left" class="vc_custom_heading vc_custom_1507372681787">SÄKER BETALNING</h5>
+	<div class="wpb_text_column wpb_content_element  vc_custom_1508218802837">
+		<div class="wpb_wrapper">
+			<p style="color: #818286; font-size: 12px;">Betala säkert med våra olika betalalternativ</p>
+
+		</div>
+	</div>
+</div></div></div></div></div></div></div><div class="vc_col-has-fill wpb_column vc_column_container vc_col-sm-6 vc_col-lg-4 vc_col-md-3"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="vc_row wpb_row vc_inner vc_row-fluid vc_custom_1453612257987"><div class="wpb_column vc_column_container vc_col-sm-12 vc_col-has-fill"><div class="vc_column-inner vc_custom_1507886246439"><div class="wpb_wrapper"><div class="vc_icon_element vc_icon_element-outer vc_custom_1507886508404 pull-left vc_icon_element-align-left">
+	<div class="vc_icon_element-inner vc_icon_element-color-custom vc_icon_element-size-lg vc_icon_element-style- vc_icon_element-background-color-grey">
+		<span class="vc_icon_element-icon fa fa-truck" style="color:#017bc4 !important"></span></div>
+</div>
+<h5 style="color: #818286;text-align: left" class="vc_custom_heading vc_custom_1507373700264">GRATIS FRAKT</h5>
+	<div class="wpb_text_column wpb_content_element  vc_custom_1507373581163">
+		<div class="wpb_wrapper">
+			<p style="color: #818286; font-size: 12px;">För beställningar över 1500 SEK</p>
+
+		</div>
+	</div>
+</div></div></div></div></div></div></div><div class="vc_col-has-fill wpb_column vc_column_container vc_col-sm-6 vc_col-lg-4 vc_col-md-3"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="vc_row wpb_row vc_inner vc_row-fluid vc_custom_1453612257987"><div class="wpb_column vc_column_container vc_col-sm-12 vc_col-has-fill"><div class="vc_column-inner vc_custom_1507886269431"><div class="wpb_wrapper"><div class="vc_icon_element vc_icon_element-outer vc_custom_1507886539572 pull-left vc_icon_element-align-left">
+	<div class="vc_icon_element-inner vc_icon_element-color-custom vc_icon_element-size-lg vc_icon_element-style- vc_icon_element-background-color-grey">
+		<span class="vc_icon_element-icon fa fa-phone-square" style="color:#017bc4 !important"></span></div>
+</div>
+<h5 style="color: #818286;text-align: left" class="vc_custom_heading vc_custom_1507373718131">KUNDSUPPORT</h5>
+	<div class="wpb_text_column wpb_content_element  vc_custom_1508218916797">
+		<div class="wpb_wrapper">
+			<p style="color: #818286; font-size: 12px;">Alltid personlig service</p>
+
+		</div>
+	</div>
+</div></div></div></div></div></div></div></div></div>
+
+<?php } ?>
+	
+	
+	<!-- end -->
 	<div class="navbar-container">
 		<div class="navbar navbar-default <?php if(dh_get_theme_option('sticky-menu',1)):?> navbar-scroll-fixed<?php endif;?>">
 			<div class="navbar-default-container">
@@ -126,10 +205,11 @@ if(defined('WOOCOMMERCE_VERSION')){
 									</div>
 									<div class="navbar-header-center">
 										<div class="navbar-search">
-											<form method="GET" class="searchform" action="<?php echo esc_url( home_url( '/' ) )?>" role="form">												
+											<form method="GET" class="searchform" id="searchform" action="<?php echo esc_url( home_url( '/' ) )?>" role="form">												
 												<div class="searchinput-wrap">
 													<input type="search" class="searchinput" name="s" autocomplete="off" value="" placeholder="<?php esc_attr_e('Search...','luxury-wp')?>" />
 													<input type="hidden" name="post_type" value="<?php echo apply_filters('dh_ajax_search_form_post_type', 'any') ?>" />
+													<input type="hidden" name="lang" value="<?php echo(ICL_LANGUAGE_CODE); ?>"/>
 													<div class="search-product-category">
 														<div class="form-flat-select">
 															<?php
@@ -183,6 +263,7 @@ if(defined('WOOCOMMERCE_VERSION')){
 							</div>
 						</div>
 					</div><!--navbar-wrap-->
+					
 					<nav class="collapse navbar-collapse primary-navbar-collapse" itemtype="<?php echo dh_get_protocol() ?>://schema.org/SiteNavigationElement" itemscope="itemscope" role="navigation">
 						<div class="<?php dh_container_class() ?>">
 							<div class="row">
@@ -205,7 +286,7 @@ if(defined('WOOCOMMERCE_VERSION')){
 										'walker' 			=> new DH_Mega_Walker
 									) );
 								else:
-									echo '<ul class="nav navbar-nav primary-nav"><li><a href="' . home_url( '/' ) . 'wp-admin/nav-menus.php">' . esc_html__( 'No menu assigned!', 'luxury-wp' ) .'</a></li></ul>';
+									echo '<ul class="nav navbar-nav primary-nav"><li><a href="' . home_url( '/' ) . 'wp-admin/nav-menus.php">' . esc_html__( 'No menu assigned!', 'luxury-wp' ) . '</a></li></ul>';
 								endif;
 								?>
 							</div>

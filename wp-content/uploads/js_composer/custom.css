@@ -1,2 +1,156 @@
 .tabs-style-3 .nav-tabs>li>a:before { background: #05b2e9; }
-.primary-nav>li.menu-item-has-children .caret { display: none; }
+/*.primary-nav>li.menu-item-has-children .caret { display: none; }*/
+.vc_custom_1453647923604 { display: none; }
+.products-tab { display: none; }
+.posts .posts-wrap.posts-layout-grid { display: none; }
+.client-slider { display: none; }
+.dh-menu .dropdown-menu { position: relative;width: 100%; }
+.dh-menu .primary-nav li.menu-item-has-children>.dropdown-menu { left: 0px; }
+.dh-menu .dropdown-menu .dropdown-submenu .dropdown-menu { position: absolute; }
+.dh-menu .primary-nav li.menu-item-has-children>.dropdown-menu .dropdown-submenu .dropdown-menu { left: 110%; }
+.heading-container .heading-background .page-title h1 { display: none; }
+@media (min-width: 900px) {
+.heading-container .heading-background .heading-wrap {
+    height: 30px;
+    padding: 30px 0;
+}
+.heading-container .page-breadcrumb { font-size: 100%; text-transform: capitalize; }
+.heading-container .heading-background .page-title .page-breadcrumb { margin-top: -25px; }
+
+
+}
+.mce-tooltip { display: none !important; }
+.revisions-tooltip {
+   	display: none !important;
+ }
+ .tooltip {
+   	display: none !important;
+ }
+ .entry-featured img { width: auto !important; }
+ 
+.container-full,.heading-container { overflow: -moz-hidden-unscrollable; }
+.archive-projects .posts .posts-wrap.posts-layout-masonry .entry-featured, .posts .posts-wrap.posts-layout-grid .entry-featured { width: 15%; float: left; }
+@media (min-width: 993px) {
+.archive-projects .posts .posts-wrap.posts-layout-masonry .entry-info, .posts .posts-wrap.posts-layout-grid .entry-info { padding: 10px 0px 0px 150px; }
+.archive-projects .entry-featured img { padding: 10px; }
+}
+.archive-projects .posts .posts-wrap.posts-layout-masonry .entry-meta, .posts .posts-wrap.posts-layout-grid .entry-meta { float: none; }
+.archive-projects .posts .posts-wrap.posts-layout-masonry .readmore-link, .posts .posts-wrap.posts-layout-grid .readmore-link { margin: 15px 15px 0; }
+
+.post-navigation { display: none; }
+.login-form .btn-primary { background-color: #05b2e9!important; }.hesperiden .tp-tab-image { display: none; }
+.hesperiden .tp-tab-content { padding: 15px; }
+.hesperiden .tp-tab { border-bottom: none; }
+.hesperiden .tp-tab-title { text-align: center; }
+.tp-tabs, .tp-thumbs { padding: 0px !important; max-width: 850px !important; }
+.hesperiden .tp-tab:hover, .hesperiden .tp-tab.selected { background: rgba(83, 208, 75, 0.8); }
+.tp-tab-mask, .tp-thumb-mask { max-width: 846px !important; }
+.hesperiden .tp-tab-title { color: #ffffff; }
+.hesperiden .tp-tab { background: rgba(5,178,233, 0.5); }
+.main-sidebar .widget_rss li:before, .main-sidebar .widget_pages li:before, .main-sidebar .widget_archive li:before, .main-sidebar .widget_meta li:before, .main-sidebar .widget_nav_menu li:before, .main-sidebar .widget_categories li:before, .main-sidebar .widget_recent_entries li:before, .main-sidebar .widget_recent_comments li:before { display:none; }
+.main-sidebar .widget_rss li, .main-sidebar .widget_pages li, .main-sidebar .widget_archive li, .main-sidebar .widget_meta li, .main-sidebar .widget_nav_menu li, .main-sidebar .widget_categories li, .main-sidebar .widget_recent_entries li, .main-sidebar .widget_recent_comments li{ padding-left: 0px; }
+.current-menu-item a { color: #05b2e9; }
+ul#menu-projects-sidebar-menu li a,ul#menu-mining-sidebar-menu li a { font-size: 14px; }
+.heading-container .heading-background { background: none !important; }
+.heading-container .heading-background .page-title .page-breadcrumb a,.heading-container .heading-background .page-title .page-breadcrumb .breadcrumb>li+li::before,.heading-container .heading-background .page-title .page-breadcrumb .breadcrumb>li { color: #333; }
+.heading-container { background: transparent; }
+.heading-container .heading-background .heading-wrap { text-align: left; }
+.breadcrumb>li { color: #333; }
+#review_form .form-submit, .comment-form .form-submit { margin-top: 10px; }
+.single-projects .entry-featured { width: 20%; }
+#text-2 { text-align: center; }
+.tp-tabs-inner-wrapper { display: none; }
+.main-content ol { padding-left: 0px; }
+.page-layout-border.page-layout-left-sidebar .main-wrap { padding-left: 50px; }
+.yith-wcwl-add-to-wishlist { display: none; }
+.page-layout-border .content-container:not(.no-padding) .main-wrap { padding-top: 0px; }
+.woocommerce .checkout h3 { display: table;padding-top: 20px; }
+a.go-to-top { color: #fff;background-color: rgba(5,178,233,1); }
+.topbar .right-topbar .wpml-languages { display: none; }
+@media (min-width: 993px) {
+.woocommerce .cart-cross-sell { margin-top: 100px;}
+.posts .posts-wrap.posts-layout-masonry .entry-featured, .posts .posts-wrap.posts-layout-grid .entry-featured { width: 20%;float: left; }
+.posts .posts-wrap.posts-layout-masonry .entry-info, .posts .posts-wrap.posts-layout-grid .entry-info { padding: 5px 10px; }
+.woocommerce .single-product-images span.onsale { left: auto;right: 0;top: 0px; }
+.single-mining_news .entry-featured { width : 50%; }
+}
+@media screen and (min-width: 767px) {
+    .posts .posts-wrap.posts-layout-masonry .entry-featured, .posts .posts-wrap.posts-layout-grid .entry-featured { width: 20%;float: left; }
+.posts .posts-wrap.posts-layout-masonry .entry-info, .posts .posts-wrap.posts-layout-grid .entry-info { padding: 5px 10px; }
+.single-mining_news .entry-featured { width : 50%; }
+.page-template-archive-popular_projects.page-layout-right-sidebar .main-wrap { float: right !important; }
+#footer { padding-top: 100px; }
+.woocommerce .cart-collaterals { padding: 15px; }
+.fa-user { font-size: 2em; }
+.product_cat-packages,.product_cat-paket { width: 100% !important;border-bottom: 1px solid #e1e1e1; }
+.product_cat-packages .product-container,.product_cat-paket .product-container{ float: none !important; }
+.product_cat-packages .product-container .product-wrap,.product_cat-paket .product-container .product-wrap{ float: left !important;padding: 10px 25px 20px 0px; }
+.product_cat-packages .product-container .info-excerpt,.product_cat-paket .product-container .info-excerpt{ display: block !important; }
+
+}
+.wpml-ls-legacy-list-horizontal { padding: 0px; }
+.wpb_button, .wpb_content_element, ul.wpb_thumbnails-fluid>li { margin-bottom: 10px; }
+.wpb_text_column h5 { margin-bottom: 0px; }
+.wpml-ls-display { display: none; }
+p.demo_store{position:absolute;color:#959595;}
+p.demo_store a{color:#05b2e9;}
+a.go-to-top{z-index:1050;}
+.header-type-market~.heading-container .page-breadcrumb { padding: 15px 0px 25px !important; }
+.page-layout-border .content-container:not(.no-padding) .sidebar-wrap { padding-top: 0px;padding-bottom: 0px; }
+.update-cart-button { visibility: hidden !important; }
+.woocommerce-checkout-coupon { display: none; }
+.create-account { display: inline-block; }
+@media screen and (min-width: 1300px){
+     .wrapper-container{min-height:890px;}
+}
+.woocommerce-contine-shoppong-btn { position: absolute!important; right: 15px; }
+/*:lang(en) .topbar-info { background: url('http://beta.prodeff.com/wp-content/uploads/2017/10/invoice-for-english.png') no-repeat;height: 40px;}
+:lang(sv) .topbar-info { background: url('http://beta.prodeff.com/wp-content/uploads/2017/10/invoice-for-swedish.png') no-repeat;height: 40px;}*/
+.vc_custom_1453791324794 { padding-top: 100px; }
+@media screen and (max-width: 993px) {
+.archive-projects .posts .posts-wrap.posts-layout-masonry .entry-info, .posts .posts-wrap.posts-layout-grid .entry-info { padding: 0px 5px 0px 70px; }
+.collapse { display: block; }
+.dh-menu { display: none; }
+.primary-nav li { display: inline-block;display: block;
+    flex: 0 1 auto;
+    list-style-type: none;border-bottom:none; }
+#menu-primary-menu { list-style: none;
+    align-items: stretch;
+    justify-content: space-between;
+    width: 100%;
+      padding: 0;
+    display: flex;
+}
+}
+@media screen and (max-width: 767px) {
+.archive-projects .posts .posts-wrap.posts-layout-masonry .entry-info, .posts .posts-wrap.posts-layout-grid .entry-info { padding: 0px 5px 0px 40px; }
+.page-layout-border.page-layout-left-sidebar .main-wrap { padding-left: 10px; }
+.archive-projects .posts .posts-wrap.posts-layout-masonry .entry-featured, .posts .posts-wrap.posts-layout-grid .entry-featured { float: none;width: 50%;margin: 10px auto; }
+}
+.mining_news { width : 100%; }
+.wpml-ls-legacy-list-vertical a { padding: 5px 0px; }
+a.go-to-top { width: 50px;height: 50px;bottom: 50px !important; }
+a.go-to-top .fa.fa-angle-up { vertical-align: middle; }
+.hesperiden.tparrows,.hesperiden.tparrows:hover { background: rgba(5,178,233, 0.8); }
+.post-type-archive-mining_news .posts .posts-wrap.posts-layout-masonry .entry-meta, .posts .posts-wrap.posts-layout-grid .entry-meta { float:none;margin: 0px 0 15px; }
+.navbar-container { height: auto !important; }
+.support-widgets .vc_col-has-fill>.vc_column-inner { padding-top: 0px !important; }
+.support-widgets-h5 { position: relative;top: 13px; }
+.meta-views .post-views { margin-top: 0 !important; }
+.meta-views .entry-meta { font-size: 100%; }
+.money-return { display: none; }
+.button.insert-media.add_media { height: 35px; }
+.prodeff-services { display: none; }
+.services-fields { display: none !important;}
+.diblock { display: inline-block; }
+.fa.diblock{top:2px;position:relative;}
+#custom_html-3 { padding-top: 0px; }
+#custom_html-3 .widget-title { margin-bottom: 7px; }
+.g-recaptcha { border: none!important;padding-left: 0px!important; }
+#menu-item-12471 a { font-size: 1.1em; }
+.topbar-nav .top-nav>li>a i { font-size: 1.5em !important; }
+.topbar-nav .top-nav>li>a { font-size: 1.1em !important;font-weight: 600; }
+#number:hover,#number1:hover { cursor: pointer; }
+.posts .posts-wrap.posts-layout-masonry .entry-info, .posts .posts-wrap.posts-layout-grid .entry-info,.posts .posts-wrap.posts-layout-masonry .has-post-thumbnail .entry-info, .posts .posts-wrap.posts-layout-grid .has-post-thumbnail .entry-info { border: none;border-bottom: 1px solid #e1e1e1; }
+.shadow {  box-shadow: 10px 10px 5px grey; }
+div.wpcf7-response-output { border: 1px solid #fe252c; }

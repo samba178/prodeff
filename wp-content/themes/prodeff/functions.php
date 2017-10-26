@@ -180,6 +180,17 @@ class DH_Luxury_Theme {
 				'after_widget' => '</div>', 
 				'before_title' => '<h4 class="widget-title"><span>', 
 				'after_title' => '</span></h4>' ) );
+		// Mining Sidebar (WP mining sidebar)
+		register_sidebar( 
+			array(  // 1
+				'name' => esc_html__( 'Mining Sidebar', 'prodeff-wp' ), 
+				'description' => esc_html__( 'This is mining sidebar', 'prodeff-wp' ), 
+				'id' => 'sidebar-mining', 
+				'before_widget' => '<div id="%1$s" class="widget %2$s">', 
+				'after_widget' => '</div>', 
+				'before_title' => '<h4 class="widget-title"><span>', 
+				'after_title' => '</span></h4>' ) );
+		
 		// Shop Sidebar (WP shop sidebar) 
 		register_sidebar( 
 			array(  // 1
@@ -224,4 +235,51 @@ $dh_luxury_theme = new DH_Luxury_Theme();
 
 if ( ! isset( $content_width ) )
 	$content_width = 1200;
+	
+/** 
+ *Reduce the strength requirement on the woocommerce password.
+ * 
+ * Strength Settings
+ * 3 = Strong (default)
+ * 2 = Medium
+ * 1 = Weak
+ * 0 = Very Weak / Anything
+ */
+function reduce_woocommerce_min_strength_requirement( $strength ) {
+    return 0;
+}
+add_filter( 'woocommerce_min_password_strength', 'reduce_woocommerce_min_strength_requirement' );
 
+add_action( 'wp_footer', 'cart_update_qty_script' );
+function cart_update_qty_script() {
+  if (is_cart()) :
+   ?>
+    <script>
+        jQuery('div.woocommerce').on('change', '.qty', function(){
+           jQuery("[name='update_cart']").removeAttr('disabled');
+           jQuery("[name='update_cart']").trigger("click"); 
+        });
+   </script>
+<?php
+endif;
+}
+
+function remove_menu_items() {
+    if( !current_user_can( 'administrator' ) ):
+        remove_menu_page( 'edit.php?post_type=mining_news' );
+    endif;
+}
+add_action( 'admin_menu', 'remove_menu_items' );
+
+if ( (isset($_GET['action']) && $_GET['action'] != 'logout') || (isset($_POST['login_location']) && !empty($_POST['login_location'])) ) {
+        add_filter('login_redirect', 'my_login_redirect', 10, 3);
+        function my_login_redirect() {
+                $location = $_SERVER['HTTP_REFERER'];
+                wp_safe_redirect($location);
+                exit();
+        }
+}
+
+add_filter( 'wpcf7_load_js', '__return_false' );
+
+   

@@ -1,0 +1,1367 @@
+10-16-2017 @ 16:37:30 - Update local order. Order ID: 15528
+10-16-2017 @ 19:38:06 - Notification callback for order: 2823197b-1419-4a4d-a644-a80e00d84c8e
+10-16-2017 @ 19:38:07 - Posted notification info: PaysonEmbedded\Checkout::__set_state(array(
+   'merchant' => 
+  PaysonEmbedded\Merchant::__set_state(array(
+     'checkoutUri' => 'http://beta.prodeff.com/checkout/',
+     'confirmationUri' => 'http://beta.prodeff.com/checkout/order-received/15528?key=wc_order_59e464f8bd9b2&paysonorder=2823197b-1419-4a4d-a644-a80e00d84c8e',
+     'notificationUri' => 'http://beta.prodeff.com/wc-api/WC_Gateway_PaysonCheckout/?wc_order=15528',
+     'validationUri' => NULL,
+     'termsUri' => 'http://beta.prodeff.com/terms-and-conditions/',
+     'reference' => '15528',
+     'partnerId' => 'Krokedil',
+     'integrationInfo' => 'PaysonCheckout2.0|1.0|NONE',
+  )),
+   'payData' => 
+  PaysonEmbedded\PayData::__set_state(array(
+     'currency' => 'sek',
+     'items' => 
+    array (
+      0 => 
+      PaysonEmbedded\OrderItem::__set_state(array(
+         'itemId' => 'bda609cb-00d0-4ce8-8a22-a80e00d84c8e',
+         'discountRate' => 0,
+         'creditedAmount' => 0,
+         'imageUri' => NULL,
+         'name' => 'Free Shipping Above 1500',
+         'unitPrice' => 123.75,
+         'quantity' => 1,
+         'taxRate' => 0.25,
+         'reference' => 'flexible_shipping_1_1',
+         'type' => 'physical',
+         'uri' => NULL,
+         'ean' => NULL,
+      )),
+      1 => 
+      PaysonEmbedded\OrderItem::__set_state(array(
+         'itemId' => '8b76394e-69a1-4c98-9cfe-a80e00d84c8e',
+         'discountRate' => 0,
+         'creditedAmount' => 0,
+         'imageUri' => NULL,
+         'name' => 'M VESA Flexarm 360 III Silver',
+         'unitPrice' => 498.75,
+         'quantity' => 1,
+         'taxRate' => 0.25,
+         'reference' => '13929',
+         'type' => 'physical',
+         'uri' => NULL,
+         'ean' => NULL,
+      )),
+      2 => 
+      PaysonEmbedded\OrderItem::__set_state(array(
+         'itemId' => '9337f4f2-af29-408a-a106-a80e00d84c8e',
+         'discountRate' => 0,
+         'creditedAmount' => 0,
+         'imageUri' => NULL,
+         'name' => 'Acer Swift 3 SF314-51 (NX.GKBEK.005)',
+         'unitPrice' => 275,
+         'quantity' => 1,
+         'taxRate' => 0.25,
+         'reference' => '12527',
+         'type' => 'physical',
+         'uri' => NULL,
+         'ean' => NULL,
+      )),
+    ),
+     'totalPriceExcludingTax' => 718,
+     'totalPriceIncludingTax' => 897.5,
+     'totalTaxAmount' => 179.5,
+     'totalCreditedAmount' => 0,
+  )),
+   'gui' => 
+  PaysonEmbedded\Gui::__set_state(array(
+     'colorScheme' => 'gray',
+     'locale' => 'en',
+     'verfication' => 'none',
+     'requestPhone' => false,
+     'countries' => 
+    array (
+      0 => 'SE',
+    ),
+  )),
+   'customer' => 
+  PaysonEmbedded\Customer::__set_state(array(
+     'city' => 'NY',
+     'countryCode' => 'SE',
+     'identityNumber' => NULL,
+     'email' => 'asrikanth84@gmail.com',
+     'firstName' => 'Srikanth',
+     'lastName' => 'Aetukuru',
+     'phone' => NULL,
+     'postalCode' => '12345',
+     'street' => 'Test Address 1, Test Address 2',
+     'type' => 'person',
+  )),
+   'status' => 'expired',
+   'id' => '2823197b-1419-4a4d-a644-a80e00d84c8e',
+   'purchaseId' => 17924573,
+   'snippet' => '<div id=\'paysonContainer\'  url=\'https://embedded.payson.se/checkout?id=2823197b-1419-4a4d-a644-a80e00d84c8e\'></div><script type=\'text/javascript\' src=\'https://embedded.payson.se/Content/payson.js?v2\'></script>',
+   'description' => '',
+))
+10-16-2017 @ 19:38:07 - Posted reference: 15528
+10-16-2017 @ 19:38:07 - Posted status: expired
+10-17-2017 @ 01:47:58 - Update local order. Order ID: 15531
+10-17-2017 @ 04:48:01 - Notification callback for order: 0c37f792-02e8-4c36-9e91-a80e016f7d13
+10-17-2017 @ 04:48:02 - Posted notification info: PaysonEmbedded\Checkout::__set_state(array(
+   'merchant' => 
+  PaysonEmbedded\Merchant::__set_state(array(
+     'checkoutUri' => 'http://beta.prodeff.com/checkout/',
+     'confirmationUri' => 'http://beta.prodeff.com/checkout/order-received/15531?key=wc_order_59e513f5c6e48&paysonorder=0c37f792-02e8-4c36-9e91-a80e016f7d13',
+     'notificationUri' => 'http://beta.prodeff.com/wc-api/WC_Gateway_PaysonCheckout/?wc_order=15531',
+     'validationUri' => NULL,
+     'termsUri' => 'http://beta.prodeff.com/terms-and-conditions/',
+     'reference' => '15531',
+     'partnerId' => 'Krokedil',
+     'integrationInfo' => 'PaysonCheckout2.0|1.0|NONE',
+  )),
+   'payData' => 
+  PaysonEmbedded\PayData::__set_state(array(
+     'currency' => 'sek',
+     'items' => 
+    array (
+      0 => 
+      PaysonEmbedded\OrderItem::__set_state(array(
+         'itemId' => '8bb7bc13-67f8-42a0-9b19-a80e016f7d13',
+         'discountRate' => 0,
+         'creditedAmount' => 0,
+         'imageUri' => NULL,
+         'name' => 'Acer 27 &#8220;BE270UA USB Type C WQHD',
+         'unitPrice' => 6248.75,
+         'quantity' => 1,
+         'taxRate' => 0.25,
+         'reference' => '13686',
+         'type' => 'physical',
+         'uri' => NULL,
+         'ean' => NULL,
+      )),
+      1 => 
+      PaysonEmbedded\OrderItem::__set_state(array(
+         'itemId' => '700588ab-6c9b-437f-a115-a80e016f7d13',
+         'discountRate' => 0,
+         'creditedAmount' => 0,
+         'imageUri' => NULL,
+         'name' => 'Free Shipping Above 1500',
+         'unitPrice' => 0,
+         'quantity' => 1,
+         'taxRate' => 0,
+         'reference' => 'flexible_shipping_1_1',
+         'type' => 'physical',
+         'uri' => NULL,
+         'ean' => NULL,
+      )),
+    ),
+     'totalPriceExcludingTax' => 4999,
+     'totalPriceIncludingTax' => 6248.75,
+     'totalTaxAmount' => 1249.75,
+     'totalCreditedAmount' => 0,
+  )),
+   'gui' => 
+  PaysonEmbedded\Gui::__set_state(array(
+     'colorScheme' => 'gray',
+     'locale' => 'en',
+     'verfication' => 'none',
+     'requestPhone' => false,
+     'countries' => 
+    array (
+      0 => 'SE',
+    ),
+  )),
+   'customer' => 
+  PaysonEmbedded\Customer::__set_state(array(
+     'city' => '',
+     'countryCode' => '',
+     'identityNumber' => '',
+     'email' => '',
+     'firstName' => '',
+     'lastName' => '',
+     'phone' => '',
+     'postalCode' => '',
+     'street' => '',
+     'type' => 'person',
+  )),
+   'status' => 'expired',
+   'id' => '0c37f792-02e8-4c36-9e91-a80e016f7d13',
+   'purchaseId' => NULL,
+   'snippet' => '<div id=\'paysonContainer\'  url=\'https://embedded.payson.se/checkout?id=0c37f792-02e8-4c36-9e91-a80e016f7d13\'></div><script type=\'text/javascript\' src=\'https://embedded.payson.se/Content/payson.js?v2\'></script>',
+   'description' => '',
+))
+10-17-2017 @ 04:48:02 - Posted reference: 15531
+10-17-2017 @ 04:48:02 - Posted status: expired
+10-17-2017 @ 12:14:38 - Update local order. Order ID: 15545
+10-17-2017 @ 12:21:28 - Update local order. Order ID: 15520
+10-17-2017 @ 12:26:32 - Update local order. Order ID: 15520
+10-17-2017 @ 12:31:42 - Update local order. Order ID: 15520
+10-17-2017 @ 12:32:04 - Update local order. Order ID: 15520
+10-17-2017 @ 12:32:37 - Update local order. Order ID: 15520
+10-17-2017 @ 12:33:23 - Update local order. Order ID: 15520
+10-17-2017 @ 15:15:03 - Notification callback for order: 53e73aa8-2582-4c0b-b232-a80f00901a38
+10-17-2017 @ 15:15:03 - Posted notification info: PaysonEmbedded\Checkout::__set_state(array(
+   'merchant' => 
+  PaysonEmbedded\Merchant::__set_state(array(
+     'checkoutUri' => 'http://beta.prodeff.com/checkout/',
+     'confirmationUri' => 'http://beta.prodeff.com/checkout/order-received/15545?key=wc_order_59e5a6d5ddaec&paysonorder=53e73aa8-2582-4c0b-b232-a80f00901a38',
+     'notificationUri' => 'http://beta.prodeff.com/wc-api/WC_Gateway_PaysonCheckout/?wc_order=15545',
+     'validationUri' => NULL,
+     'termsUri' => 'http://beta.prodeff.com/terms-and-conditions/',
+     'reference' => '15545',
+     'partnerId' => 'Krokedil',
+     'integrationInfo' => 'PaysonCheckout2.0|1.0|NONE',
+  )),
+   'payData' => 
+  PaysonEmbedded\PayData::__set_state(array(
+     'currency' => 'sek',
+     'items' => 
+    array (
+      0 => 
+      PaysonEmbedded\OrderItem::__set_state(array(
+         'itemId' => '1bdda925-054d-465c-a963-a80f00901a41',
+         'discountRate' => 0,
+         'creditedAmount' => 0,
+         'imageUri' => NULL,
+         'name' => 'Acer 27 &#8220;Predator XG270HU',
+         'unitPrice' => 5612.5,
+         'quantity' => 1,
+         'taxRate' => 0.25,
+         'reference' => '13493',
+         'type' => 'physical',
+         'uri' => NULL,
+         'ean' => NULL,
+      )),
+      1 => 
+      PaysonEmbedded\OrderItem::__set_state(array(
+         'itemId' => 'c800f6e6-bbec-4c06-bef7-a80f00901a41',
+         'discountRate' => 0,
+         'creditedAmount' => 0,
+         'imageUri' => NULL,
+         'name' => 'Free Shipping Above 1500',
+         'unitPrice' => 0,
+         'quantity' => 1,
+         'taxRate' => 0,
+         'reference' => 'flexible_shipping_1_1',
+         'type' => 'physical',
+         'uri' => NULL,
+         'ean' => NULL,
+      )),
+    ),
+     'totalPriceExcludingTax' => 4490,
+     'totalPriceIncludingTax' => 5612.5,
+     'totalTaxAmount' => 1122.5,
+     'totalCreditedAmount' => 0,
+  )),
+   'gui' => 
+  PaysonEmbedded\Gui::__set_state(array(
+     'colorScheme' => 'gray',
+     'locale' => 'en',
+     'verfication' => 'none',
+     'requestPhone' => false,
+     'countries' => 
+    array (
+      0 => 'SE',
+    ),
+  )),
+   'customer' => 
+  PaysonEmbedded\Customer::__set_state(array(
+     'city' => '',
+     'countryCode' => '',
+     'identityNumber' => '',
+     'email' => 'info@prodeff.com',
+     'firstName' => '',
+     'lastName' => '',
+     'phone' => '',
+     'postalCode' => '43214324',
+     'street' => '',
+     'type' => 'person',
+  )),
+   'status' => 'expired',
+   'id' => '53e73aa8-2582-4c0b-b232-a80f00901a38',
+   'purchaseId' => NULL,
+   'snippet' => '<div id=\'paysonContainer\'  url=\'https://embedded.payson.se/checkout?id=53e73aa8-2582-4c0b-b232-a80f00901a38\'></div><script type=\'text/javascript\' src=\'https://embedded.payson.se/Content/payson.js?v2\'></script>',
+   'description' => '',
+))
+10-17-2017 @ 15:15:03 - Posted reference: 15545
+10-17-2017 @ 15:15:03 - Posted status: expired
+10-17-2017 @ 15:34:01 - Notification callback for order: 8d142936-b5a5-421c-8c93-a80f0091f9a8
+10-17-2017 @ 15:34:02 - Posted notification info: PaysonEmbedded\Checkout::__set_state(array(
+   'merchant' => 
+  PaysonEmbedded\Merchant::__set_state(array(
+     'checkoutUri' => 'http://beta.prodeff.com/checkout/',
+     'confirmationUri' => 'http://beta.prodeff.com/checkout/order-received/15520?key=wc_order_59e43f0f1c14d&paysonorder=8d142936-b5a5-421c-8c93-a80f0091f9a8',
+     'notificationUri' => 'http://beta.prodeff.com/wc-api/WC_Gateway_PaysonCheckout/?wc_order=15520',
+     'validationUri' => NULL,
+     'termsUri' => 'http://beta.prodeff.com/terms-and-conditions/',
+     'reference' => '15520',
+     'partnerId' => 'Krokedil',
+     'integrationInfo' => 'PaysonCheckout2.0|1.0|NONE',
+  )),
+   'payData' => 
+  PaysonEmbedded\PayData::__set_state(array(
+     'currency' => 'sek',
+     'items' => 
+    array (
+      0 => 
+      PaysonEmbedded\OrderItem::__set_state(array(
+         'itemId' => '0ae89d00-6d91-4c34-8a5b-a80f00953fdc',
+         'discountRate' => 0,
+         'creditedAmount' => 0,
+         'imageUri' => NULL,
+         'name' => 'Orders below 1500',
+         'unitPrice' => 123.75,
+         'quantity' => 1,
+         'taxRate' => 0.25,
+         'reference' => 'flexible_shipping_1_1',
+         'type' => 'physical',
+         'uri' => NULL,
+         'ean' => NULL,
+      )),
+      1 => 
+      PaysonEmbedded\OrderItem::__set_state(array(
+         'itemId' => '36852080-c357-4091-bc46-a80f00953fdc',
+         'discountRate' => 0,
+         'creditedAmount' => 0,
+         'imageUri' => NULL,
+         'name' => 'Deltaco Wall Mount for TV / Screen ARM-401',
+         'unitPrice' => 237.5,
+         'quantity' => 1,
+         'taxRate' => 0.25,
+         'reference' => '13912',
+         'type' => 'physical',
+         'uri' => NULL,
+         'ean' => NULL,
+      )),
+    ),
+     'totalPriceExcludingTax' => 289,
+     'totalPriceIncludingTax' => 361.25,
+     'totalTaxAmount' => 72.25,
+     'totalCreditedAmount' => 0,
+  )),
+   'gui' => 
+  PaysonEmbedded\Gui::__set_state(array(
+     'colorScheme' => 'gray',
+     'locale' => 'en',
+     'verfication' => 'none',
+     'requestPhone' => false,
+     'countries' => 
+    array (
+      0 => 'SE',
+    ),
+  )),
+   'customer' => 
+  PaysonEmbedded\Customer::__set_state(array(
+     'city' => 'HYDERABAd',
+     'countryCode' => 'SE',
+     'identityNumber' => NULL,
+     'email' => 'asrikanth84@gmail.com',
+     'firstName' => 'Srikanth',
+     'lastName' => 'Aetukuru',
+     'phone' => NULL,
+     'postalCode' => '500068',
+     'street' => '1a/19',
+     'type' => 'person',
+  )),
+   'status' => 'expired',
+   'id' => '8d142936-b5a5-421c-8c93-a80f0091f9a8',
+   'purchaseId' => 17927944,
+   'snippet' => '<div id=\'paysonContainer\'  url=\'https://embedded.payson.se/checkout?id=8d142936-b5a5-421c-8c93-a80f0091f9a8\'></div><script type=\'text/javascript\' src=\'https://embedded.payson.se/Content/payson.js?v2\'></script>',
+   'description' => '',
+))
+10-17-2017 @ 15:34:02 - Posted reference: 15520
+10-17-2017 @ 15:34:02 - Posted status: expired
+10-17-2017 @ 18:03:52 - Update local order. Order ID: 15520
+10-17-2017 @ 18:04:30 - Update local order. Order ID: 15520
+10-17-2017 @ 19:13:10 - Update local order. Order ID: 15553
+10-17-2017 @ 19:40:58 - Update local order. Order ID: 15553
+10-17-2017 @ 19:50:04 - Update local order. Order ID: 15553
+10-17-2017 @ 21:05:03 - Notification callback for order: 9d767b82-27c1-4770-a126-a80f00f00620
+10-17-2017 @ 21:05:03 - Posted notification info: PaysonEmbedded\Checkout::__set_state(array(
+   'merchant' => 
+  PaysonEmbedded\Merchant::__set_state(array(
+     'checkoutUri' => 'http://beta.prodeff.com/checkout/',
+     'confirmationUri' => 'http://beta.prodeff.com/checkout/order-received/15520?lang=en&key=wc_order_59e43f0f1c14d&paysonorder=9d767b82-27c1-4770-a126-a80f00f00620',
+     'notificationUri' => 'http://beta.prodeff.com/wc-api/WC_Gateway_PaysonCheckout/?wc_order=15520',
+     'validationUri' => NULL,
+     'termsUri' => 'http://beta.prodeff.com/terms-and-conditions-2/',
+     'reference' => '15520',
+     'partnerId' => 'Krokedil',
+     'integrationInfo' => 'PaysonCheckout2.0|1.0|NONE',
+  )),
+   'payData' => 
+  PaysonEmbedded\PayData::__set_state(array(
+     'currency' => 'sek',
+     'items' => 
+    array (
+      0 => 
+      PaysonEmbedded\OrderItem::__set_state(array(
+         'itemId' => '63a15aa2-7ca1-4816-859e-a80f00f0322f',
+         'discountRate' => 0,
+         'creditedAmount' => 0,
+         'imageUri' => NULL,
+         'name' => 'Orders below 1500',
+         'unitPrice' => 0,
+         'quantity' => 1,
+         'taxRate' => 0,
+         'reference' => 'flexible_shipping_1_1',
+         'type' => 'physical',
+         'uri' => NULL,
+         'ean' => NULL,
+      )),
+      1 => 
+      PaysonEmbedded\OrderItem::__set_state(array(
+         'itemId' => '3ab22df5-c63f-442b-869d-a80f00f0322f',
+         'discountRate' => 0,
+         'creditedAmount' => 0,
+         'imageUri' => NULL,
+         'name' => 'Acer 27 &#8220;Predator XG270HU',
+         'unitPrice' => 5612.5,
+         'quantity' => 6,
+         'taxRate' => 0.25,
+         'reference' => '13493',
+         'type' => 'physical',
+         'uri' => NULL,
+         'ean' => NULL,
+      )),
+    ),
+     'totalPriceExcludingTax' => 26940,
+     'totalPriceIncludingTax' => 33675,
+     'totalTaxAmount' => 6735,
+     'totalCreditedAmount' => 0,
+  )),
+   'gui' => 
+  PaysonEmbedded\Gui::__set_state(array(
+     'colorScheme' => 'gray',
+     'locale' => 'sv',
+     'verfication' => 'none',
+     'requestPhone' => false,
+     'countries' => 
+    array (
+      0 => 'SE',
+    ),
+  )),
+   'customer' => 
+  PaysonEmbedded\Customer::__set_state(array(
+     'city' => '',
+     'countryCode' => '',
+     'identityNumber' => '',
+     'email' => 'sambasiva@aptbeak.com',
+     'firstName' => '',
+     'lastName' => '',
+     'phone' => '',
+     'postalCode' => '',
+     'street' => '',
+     'type' => 'person',
+  )),
+   'status' => 'expired',
+   'id' => '9d767b82-27c1-4770-a126-a80f00f00620',
+   'purchaseId' => NULL,
+   'snippet' => '<div id=\'paysonContainer\'  url=\'https://embedded.payson.se/checkout?id=9d767b82-27c1-4770-a126-a80f00f00620\'></div><script type=\'text/javascript\' src=\'https://embedded.payson.se/Content/payson.js?v2\'></script>',
+   'description' => '',
+))
+10-17-2017 @ 21:05:03 - Posted reference: 15520
+10-17-2017 @ 21:05:03 - Posted status: expired
+10-17-2017 @ 22:51:13 - Notification callback for order: 20f18421-8773-4821-87d0-a80f01030eb0
+10-17-2017 @ 22:51:14 - Posted notification info: PaysonEmbedded\Checkout::__set_state(array(
+   'merchant' => 
+  PaysonEmbedded\Merchant::__set_state(array(
+     'checkoutUri' => 'http://beta.prodeff.com/checkout/',
+     'confirmationUri' => 'http://beta.prodeff.com/checkout/order-received/15553?key=wc_order_59e608ee4ff08&paysonorder=20f18421-8773-4821-87d0-a80f01030eb0',
+     'notificationUri' => 'http://beta.prodeff.com/wc-api/WC_Gateway_PaysonCheckout/?wc_order=15553',
+     'validationUri' => NULL,
+     'termsUri' => 'http://beta.prodeff.com/terms-and-conditions-2/',
+     'reference' => '15553',
+     'partnerId' => 'Krokedil',
+     'integrationInfo' => 'PaysonCheckout2.0|1.0|NONE',
+  )),
+   'payData' => 
+  PaysonEmbedded\PayData::__set_state(array(
+     'currency' => 'sek',
+     'items' => 
+    array (
+      0 => 
+      PaysonEmbedded\OrderItem::__set_state(array(
+         'itemId' => '76c44f24-3634-42bc-91df-a80f010d30b4',
+         'discountRate' => 0,
+         'creditedAmount' => 0,
+         'imageUri' => NULL,
+         'name' => 'Acer 27 &#8221;Predator XG270HU',
+         'unitPrice' => 5612.5,
+         'quantity' => 1,
+         'taxRate' => 0.25,
+         'reference' => '15400',
+         'type' => 'physical',
+         'uri' => NULL,
+         'ean' => NULL,
+      )),
+      1 => 
+      PaysonEmbedded\OrderItem::__set_state(array(
+         'itemId' => '11ad9922-26a0-4a9c-95b7-a80f010d30b4',
+         'discountRate' => 0,
+         'creditedAmount' => 0,
+         'imageUri' => NULL,
+         'name' => 'Orders below 1500',
+         'unitPrice' => 0,
+         'quantity' => 1,
+         'taxRate' => 0,
+         'reference' => 'flexible_shipping_1_1',
+         'type' => 'physical',
+         'uri' => NULL,
+         'ean' => NULL,
+      )),
+    ),
+     'totalPriceExcludingTax' => 4490,
+     'totalPriceIncludingTax' => 5612.5,
+     'totalTaxAmount' => 1122.5,
+     'totalCreditedAmount' => 0,
+  )),
+   'gui' => 
+  PaysonEmbedded\Gui::__set_state(array(
+     'colorScheme' => 'gray',
+     'locale' => 'sv',
+     'verfication' => 'none',
+     'requestPhone' => false,
+     'countries' => 
+    array (
+      0 => 'SE',
+    ),
+  )),
+   'customer' => 
+  PaysonEmbedded\Customer::__set_state(array(
+     'city' => 'Västra Frölunda',
+     'countryCode' => 'SE',
+     'identityNumber' => '8511101332',
+     'email' => 'allenkalasho@hotmail.com',
+     'firstName' => 'Allen',
+     'lastName' => 'Kalasho',
+     'phone' => NULL,
+     'postalCode' => '42161',
+     'street' => 'Grevegårdsvägen 224 Lgh 1101',
+     'type' => 'person',
+  )),
+   'status' => 'expired',
+   'id' => '20f18421-8773-4821-87d0-a80f01030eb0',
+   'purchaseId' => NULL,
+   'snippet' => '<div id=\'paysonContainer\'  url=\'https://embedded.payson.se/checkout?id=20f18421-8773-4821-87d0-a80f01030eb0\'></div><script type=\'text/javascript\' src=\'https://embedded.payson.se/Content/payson.js?v2\'></script>',
+   'description' => '',
+))
+10-17-2017 @ 22:51:14 - Posted reference: 15553
+10-17-2017 @ 22:51:14 - Posted status: expired
+10-18-2017 @ 00:21:16 - Update local order. Order ID: 15558
+10-18-2017 @ 03:22:05 - Notification callback for order: 1d0246c9-c3d5-4182-b7e6-a80f0157ad75
+10-18-2017 @ 03:22:05 - Posted notification info: PaysonEmbedded\Checkout::__set_state(array(
+   'merchant' => 
+  PaysonEmbedded\Merchant::__set_state(array(
+     'checkoutUri' => 'http://beta.prodeff.com/checkout/?lang=en',
+     'confirmationUri' => 'http://beta.prodeff.com/checkout/order-received/15558?lang=en&key=wc_order_59e6512454ff5&paysonorder=1d0246c9-c3d5-4182-b7e6-a80f0157ad75',
+     'notificationUri' => 'http://beta.prodeff.com/wc-api/WC_Gateway_PaysonCheckout/?wc_order=15558',
+     'validationUri' => NULL,
+     'termsUri' => 'http://beta.prodeff.com/terms-and-conditions/?lang=en',
+     'reference' => '15558',
+     'partnerId' => 'Krokedil',
+     'integrationInfo' => 'PaysonCheckout2.0|1.0|NONE',
+  )),
+   'payData' => 
+  PaysonEmbedded\PayData::__set_state(array(
+     'currency' => 'sek',
+     'items' => 
+    array (
+      0 => 
+      PaysonEmbedded\OrderItem::__set_state(array(
+         'itemId' => 'dbf56168-6887-4085-9fb6-a80f0157ad75',
+         'discountRate' => 0,
+         'creditedAmount' => 0,
+         'imageUri' => NULL,
+         'name' => 'Orders below 1500',
+         'unitPrice' => 123.75,
+         'quantity' => 1,
+         'taxRate' => 0.25,
+         'reference' => 'flexible_shipping_1_1',
+         'type' => 'physical',
+         'uri' => NULL,
+         'ean' => NULL,
+      )),
+      1 => 
+      PaysonEmbedded\OrderItem::__set_state(array(
+         'itemId' => '92c1e2dc-5d17-428d-b826-a80f0157ad75',
+         'discountRate' => 0,
+         'creditedAmount' => 0,
+         'imageUri' => NULL,
+         'name' => 'M VESA Flexarm 360 III Silver',
+         'unitPrice' => 498.75,
+         'quantity' => 1,
+         'taxRate' => 0.25,
+         'reference' => '15350',
+         'type' => 'physical',
+         'uri' => NULL,
+         'ean' => NULL,
+      )),
+    ),
+     'totalPriceExcludingTax' => 498,
+     'totalPriceIncludingTax' => 622.5,
+     'totalTaxAmount' => 124.5,
+     'totalCreditedAmount' => 0,
+  )),
+   'gui' => 
+  PaysonEmbedded\Gui::__set_state(array(
+     'colorScheme' => 'gray',
+     'locale' => 'en',
+     'verfication' => 'none',
+     'requestPhone' => false,
+     'countries' => 
+    array (
+      0 => 'SE',
+    ),
+  )),
+   'customer' => 
+  PaysonEmbedded\Customer::__set_state(array(
+     'city' => '',
+     'countryCode' => '',
+     'identityNumber' => '',
+     'email' => '',
+     'firstName' => '',
+     'lastName' => '',
+     'phone' => '',
+     'postalCode' => '42161',
+     'street' => '',
+     'type' => 'person',
+  )),
+   'status' => 'expired',
+   'id' => '1d0246c9-c3d5-4182-b7e6-a80f0157ad75',
+   'purchaseId' => NULL,
+   'snippet' => '<div id=\'paysonContainer\'  url=\'https://embedded.payson.se/checkout?id=1d0246c9-c3d5-4182-b7e6-a80f0157ad75\'></div><script type=\'text/javascript\' src=\'https://embedded.payson.se/Content/payson.js?v2\'></script>',
+   'description' => '',
+))
+10-18-2017 @ 03:22:05 - Posted reference: 15558
+10-18-2017 @ 03:22:05 - Posted status: expired
+10-18-2017 @ 10:00:46 - Update local order. Order ID: 15559
+10-18-2017 @ 10:01:34 - Update local order. Order ID: 15559
+10-18-2017 @ 10:01:41 - Update local order. Order ID: 15559
+10-18-2017 @ 13:02:01 - Notification callback for order: a4ac0521-4b9d-48c9-b48d-a810006b55e0
+10-18-2017 @ 13:02:01 - Posted notification info: PaysonEmbedded\Checkout::__set_state(array(
+   'merchant' => 
+  PaysonEmbedded\Merchant::__set_state(array(
+     'checkoutUri' => 'http://beta.prodeff.com/checkout/',
+     'confirmationUri' => 'http://beta.prodeff.com/checkout/order-received/15559?key=wc_order_59e6d8f5c1977&paysonorder=a4ac0521-4b9d-48c9-b48d-a810006b55e0',
+     'notificationUri' => 'http://beta.prodeff.com/wc-api/WC_Gateway_PaysonCheckout/?wc_order=15559',
+     'validationUri' => NULL,
+     'termsUri' => 'http://beta.prodeff.com/terms-and-conditions-2/',
+     'reference' => '15559',
+     'partnerId' => 'Krokedil',
+     'integrationInfo' => 'PaysonCheckout2.0|1.0|NONE',
+  )),
+   'payData' => 
+  PaysonEmbedded\PayData::__set_state(array(
+     'currency' => 'sek',
+     'items' => 
+    array (
+      0 => 
+      PaysonEmbedded\OrderItem::__set_state(array(
+         'itemId' => 'fd59687e-aba4-49f7-8392-a810006b9697',
+         'discountRate' => 0,
+         'creditedAmount' => 0,
+         'imageUri' => NULL,
+         'name' => 'Orders below 1500',
+         'unitPrice' => 0,
+         'quantity' => 1,
+         'taxRate' => 0,
+         'reference' => 'flexible_shipping_1_1',
+         'type' => 'physical',
+         'uri' => NULL,
+         'ean' => NULL,
+      )),
+      1 => 
+      PaysonEmbedded\OrderItem::__set_state(array(
+         'itemId' => '6896e7d7-6f6c-4f34-9d23-a810006b9697',
+         'discountRate' => 0,
+         'creditedAmount' => 0,
+         'imageUri' => NULL,
+         'name' => 'Samsung 32&#8243; C32F391 Curved',
+         'unitPrice' => 3987.5,
+         'quantity' => 1,
+         'taxRate' => 0.25,
+         'reference' => '15354',
+         'type' => 'physical',
+         'uri' => NULL,
+         'ean' => NULL,
+      )),
+    ),
+     'totalPriceExcludingTax' => 3190,
+     'totalPriceIncludingTax' => 3987.5,
+     'totalTaxAmount' => 797.5,
+     'totalCreditedAmount' => 0,
+  )),
+   'gui' => 
+  PaysonEmbedded\Gui::__set_state(array(
+     'colorScheme' => 'gray',
+     'locale' => 'sv',
+     'verfication' => 'none',
+     'requestPhone' => false,
+     'countries' => 
+    array (
+      0 => 'SE',
+    ),
+  )),
+   'customer' => 
+  PaysonEmbedded\Customer::__set_state(array(
+     'city' => '',
+     'countryCode' => '',
+     'identityNumber' => '',
+     'email' => '',
+     'firstName' => '',
+     'lastName' => '',
+     'phone' => '',
+     'postalCode' => '',
+     'street' => '',
+     'type' => 'person',
+  )),
+   'status' => 'expired',
+   'id' => 'a4ac0521-4b9d-48c9-b48d-a810006b55e0',
+   'purchaseId' => NULL,
+   'snippet' => '<div id=\'paysonContainer\'  url=\'https://embedded.payson.se/checkout?id=a4ac0521-4b9d-48c9-b48d-a810006b55e0\'></div><script type=\'text/javascript\' src=\'https://embedded.payson.se/Content/payson.js?v2\'></script>',
+   'description' => '',
+))
+10-18-2017 @ 13:02:02 - Posted reference: 15559
+10-18-2017 @ 13:02:02 - Posted status: expired
+10-18-2017 @ 13:53:24 - Update local order. Order ID: 15520
+10-18-2017 @ 14:07:37 - Update local order. Order ID: 15574
+10-18-2017 @ 14:08:12 - Update local order. Order ID: 15574
+10-18-2017 @ 14:26:05 - Update local order. Order ID: 15520
+10-18-2017 @ 14:27:16 - Update local order. Order ID: 15520
+10-18-2017 @ 14:28:02 - Update local order. Order ID: 15577
+10-18-2017 @ 14:29:54 - Update local order. Order ID: 15577
+10-18-2017 @ 14:30:17 - Update local order. Order ID: 15577
+10-18-2017 @ 14:33:34 - Update local order. Order ID: 15520
+10-18-2017 @ 14:39:04 - Update local order. Order ID: 15577
+10-18-2017 @ 14:40:16 - Update local order. Order ID: 15577
+10-18-2017 @ 14:41:49 - Update local order. Order ID: 15577
+10-18-2017 @ 14:41:59 - Update local order. Order ID: 15577
+10-18-2017 @ 14:50:24 - Update local order. Order ID: 15577
+10-18-2017 @ 14:51:58 - Update local order. Order ID: 15577
+10-18-2017 @ 17:09:01 - Notification callback for order: 6f942200-c2fa-4619-8558-a81000af20b6
+10-18-2017 @ 17:09:01 - Posted notification info: PaysonEmbedded\Checkout::__set_state(array(
+   'merchant' => 
+  PaysonEmbedded\Merchant::__set_state(array(
+     'checkoutUri' => 'http://beta.prodeff.com/checkout/',
+     'confirmationUri' => 'http://beta.prodeff.com/checkout/order-received/15574?key=wc_order_59e712d0cde50&paysonorder=6f942200-c2fa-4619-8558-a81000af20b6',
+     'notificationUri' => 'http://beta.prodeff.com/wc-api/WC_Gateway_PaysonCheckout/?wc_order=15574',
+     'validationUri' => NULL,
+     'termsUri' => 'http://beta.prodeff.com/terms-and-conditions-2/',
+     'reference' => '15574',
+     'partnerId' => 'Krokedil',
+     'integrationInfo' => 'PaysonCheckout2.0|1.0|NONE',
+  )),
+   'payData' => 
+  PaysonEmbedded\PayData::__set_state(array(
+     'currency' => 'sek',
+     'items' => 
+    array (
+      0 => 
+      PaysonEmbedded\OrderItem::__set_state(array(
+         'itemId' => '78565310-d771-4ba2-a00a-a81000af4aaf',
+         'discountRate' => 0,
+         'creditedAmount' => 0,
+         'imageUri' => NULL,
+         'name' => 'Orders below 1500',
+         'unitPrice' => 123.75,
+         'quantity' => 1,
+         'taxRate' => 0.25,
+         'reference' => 'flexible_shipping_1_1',
+         'type' => 'physical',
+         'uri' => NULL,
+         'ean' => NULL,
+      )),
+      1 => 
+      PaysonEmbedded\OrderItem::__set_state(array(
+         'itemId' => '2a3dabb1-8508-46c1-bbef-a81000af4aaf',
+         'discountRate' => 0,
+         'creditedAmount' => 0,
+         'imageUri' => NULL,
+         'name' => 'Netgear Nighthawk R7000',
+         'unitPrice' => 168.740000000000009094947017729282379150390625,
+         'quantity' => 1,
+         'taxRate' => 0.25,
+         'reference' => '15444',
+         'type' => 'physical',
+         'uri' => NULL,
+         'ean' => NULL,
+      )),
+    ),
+     'totalPriceExcludingTax' => 233.990000000000009094947017729282379150390625,
+     'totalPriceIncludingTax' => 292.490000000000009094947017729282379150390625,
+     'totalTaxAmount' => 58.5,
+     'totalCreditedAmount' => 0,
+  )),
+   'gui' => 
+  PaysonEmbedded\Gui::__set_state(array(
+     'colorScheme' => 'gray',
+     'locale' => 'sv',
+     'verfication' => 'none',
+     'requestPhone' => false,
+     'countries' => 
+    array (
+      0 => 'SE',
+    ),
+  )),
+   'customer' => 
+  PaysonEmbedded\Customer::__set_state(array(
+     'city' => '',
+     'countryCode' => '',
+     'identityNumber' => '',
+     'email' => '',
+     'firstName' => '',
+     'lastName' => '',
+     'phone' => '',
+     'postalCode' => '',
+     'street' => '',
+     'type' => 'person',
+  )),
+   'status' => 'expired',
+   'id' => '6f942200-c2fa-4619-8558-a81000af20b6',
+   'purchaseId' => NULL,
+   'snippet' => '<div id=\'paysonContainer\'  url=\'https://embedded.payson.se/checkout?id=6f942200-c2fa-4619-8558-a81000af20b6\'></div><script type=\'text/javascript\' src=\'https://embedded.payson.se/Content/payson.js?v2\'></script>',
+   'description' => '',
+))
+10-18-2017 @ 17:09:01 - Posted reference: 15574
+10-18-2017 @ 17:09:01 - Posted status: expired
+10-18-2017 @ 17:34:01 - Notification callback for order: 29108258-de94-4d93-a6b0-a81000ab3a46
+10-18-2017 @ 17:34:02 - Posted notification info: PaysonEmbedded\Checkout::__set_state(array(
+   'merchant' => 
+  PaysonEmbedded\Merchant::__set_state(array(
+     'checkoutUri' => 'http://beta.prodeff.com/checkout/',
+     'confirmationUri' => 'http://beta.prodeff.com/checkout/order-received/15520?key=wc_order_59e43f0f1c14d&paysonorder=29108258-de94-4d93-a6b0-a81000ab3a46',
+     'notificationUri' => 'http://beta.prodeff.com/wc-api/WC_Gateway_PaysonCheckout/?wc_order=15520',
+     'validationUri' => NULL,
+     'termsUri' => 'http://beta.prodeff.com/terms-and-conditions-2/',
+     'reference' => '15520',
+     'partnerId' => 'Krokedil',
+     'integrationInfo' => 'PaysonCheckout2.0|1.0|NONE',
+  )),
+   'payData' => 
+  PaysonEmbedded\PayData::__set_state(array(
+     'currency' => 'sek',
+     'items' => 
+    array (
+      0 => 
+      PaysonEmbedded\OrderItem::__set_state(array(
+         'itemId' => '52bd5773-ea66-438b-945c-a81000b641c6',
+         'discountRate' => 0,
+         'creditedAmount' => 0,
+         'imageUri' => NULL,
+         'name' => 'Netgear Nighthawk R7000',
+         'unitPrice' => 168.740000000000009094947017729282379150390625,
+         'quantity' => 1,
+         'taxRate' => 0.25,
+         'reference' => '15444',
+         'type' => 'physical',
+         'uri' => NULL,
+         'ean' => NULL,
+      )),
+      1 => 
+      PaysonEmbedded\OrderItem::__set_state(array(
+         'itemId' => '66f29eda-1951-4bd4-a009-a81000b641c6',
+         'discountRate' => 0,
+         'creditedAmount' => 0,
+         'imageUri' => NULL,
+         'name' => 'Orders below 1500',
+         'unitPrice' => 123.75,
+         'quantity' => 1,
+         'taxRate' => 0.25,
+         'reference' => 'flexible_shipping_1_1',
+         'type' => 'physical',
+         'uri' => NULL,
+         'ean' => NULL,
+      )),
+    ),
+     'totalPriceExcludingTax' => 233.990000000000009094947017729282379150390625,
+     'totalPriceIncludingTax' => 292.490000000000009094947017729282379150390625,
+     'totalTaxAmount' => 58.5,
+     'totalCreditedAmount' => 0,
+  )),
+   'gui' => 
+  PaysonEmbedded\Gui::__set_state(array(
+     'colorScheme' => 'gray',
+     'locale' => 'sv',
+     'verfication' => 'none',
+     'requestPhone' => false,
+     'countries' => 
+    array (
+      0 => 'SE',
+    ),
+  )),
+   'customer' => 
+  PaysonEmbedded\Customer::__set_state(array(
+     'city' => '',
+     'countryCode' => '',
+     'identityNumber' => '',
+     'email' => 'sambasiva@aptbeak.com',
+     'firstName' => '',
+     'lastName' => '',
+     'phone' => '',
+     'postalCode' => '',
+     'street' => '',
+     'type' => 'person',
+  )),
+   'status' => 'expired',
+   'id' => '29108258-de94-4d93-a6b0-a81000ab3a46',
+   'purchaseId' => NULL,
+   'snippet' => '<div id=\'paysonContainer\'  url=\'https://embedded.payson.se/checkout?id=29108258-de94-4d93-a6b0-a81000ab3a46\'></div><script type=\'text/javascript\' src=\'https://embedded.payson.se/Content/payson.js?v2\'></script>',
+   'description' => '',
+))
+10-18-2017 @ 17:34:02 - Posted reference: 15520
+10-18-2017 @ 17:34:02 - Posted status: expired
+10-18-2017 @ 17:52:01 - Notification callback for order: 2539290d-9212-4724-ad84-a81000b4bcab
+10-18-2017 @ 17:52:01 - Posted notification info: PaysonEmbedded\Checkout::__set_state(array(
+   'merchant' => 
+  PaysonEmbedded\Merchant::__set_state(array(
+     'checkoutUri' => 'http://beta.prodeff.com/checkout/',
+     'confirmationUri' => 'http://beta.prodeff.com/checkout/order-received/15577?key=wc_order_59e7179a24194&paysonorder=2539290d-9212-4724-ad84-a81000b4bcab',
+     'notificationUri' => 'http://beta.prodeff.com/wc-api/WC_Gateway_PaysonCheckout/?wc_order=15577',
+     'validationUri' => NULL,
+     'termsUri' => 'http://beta.prodeff.com/terms-and-conditions-2/',
+     'reference' => '15577',
+     'partnerId' => 'Krokedil',
+     'integrationInfo' => 'PaysonCheckout2.0|1.0|NONE',
+  )),
+   'payData' => 
+  PaysonEmbedded\PayData::__set_state(array(
+     'currency' => 'sek',
+     'items' => 
+    array (
+      0 => 
+      PaysonEmbedded\OrderItem::__set_state(array(
+         'itemId' => 'f73262a2-5066-41bc-aa5a-a81000bb50ea',
+         'discountRate' => 0,
+         'creditedAmount' => 0,
+         'imageUri' => NULL,
+         'name' => 'Netgear Nighthawk R7000',
+         'unitPrice' => 168.740000000000009094947017729282379150390625,
+         'quantity' => 1,
+         'taxRate' => 0.25,
+         'reference' => '12812',
+         'type' => 'physical',
+         'uri' => NULL,
+         'ean' => NULL,
+      )),
+      1 => 
+      PaysonEmbedded\OrderItem::__set_state(array(
+         'itemId' => 'f278dcb0-b7c9-407c-bb8f-a81000bb50ea',
+         'discountRate' => 0,
+         'creditedAmount' => 0,
+         'imageUri' => NULL,
+         'name' => 'Orders below 1500',
+         'unitPrice' => 123.75,
+         'quantity' => 1,
+         'taxRate' => 0.25,
+         'reference' => 'flexible_shipping_1_1',
+         'type' => 'physical',
+         'uri' => NULL,
+         'ean' => NULL,
+      )),
+    ),
+     'totalPriceExcludingTax' => 233.990000000000009094947017729282379150390625,
+     'totalPriceIncludingTax' => 292.490000000000009094947017729282379150390625,
+     'totalTaxAmount' => 58.5,
+     'totalCreditedAmount' => 0,
+  )),
+   'gui' => 
+  PaysonEmbedded\Gui::__set_state(array(
+     'colorScheme' => 'gray',
+     'locale' => 'sv',
+     'verfication' => 'none',
+     'requestPhone' => false,
+     'countries' => 
+    array (
+      0 => 'SE',
+    ),
+  )),
+   'customer' => 
+  PaysonEmbedded\Customer::__set_state(array(
+     'city' => '',
+     'countryCode' => '',
+     'identityNumber' => '',
+     'email' => '',
+     'firstName' => '',
+     'lastName' => '',
+     'phone' => '',
+     'postalCode' => '',
+     'street' => '',
+     'type' => 'person',
+  )),
+   'status' => 'expired',
+   'id' => '2539290d-9212-4724-ad84-a81000b4bcab',
+   'purchaseId' => NULL,
+   'snippet' => '<div id=\'paysonContainer\'  url=\'https://embedded.payson.se/checkout?id=2539290d-9212-4724-ad84-a81000b4bcab\'></div><script type=\'text/javascript\' src=\'https://embedded.payson.se/Content/payson.js?v2\'></script>',
+   'description' => '',
+))
+10-18-2017 @ 17:52:01 - Posted reference: 15577
+10-18-2017 @ 17:52:01 - Posted status: expired
+10-18-2017 @ 18:45:01 - Update local order. Order ID: 15520
+10-18-2017 @ 18:45:39 - Update local order. Order ID: 15520
+10-18-2017 @ 18:45:59 - Update local order. Order ID: 15520
+10-18-2017 @ 18:46:39 - Update local order. Order ID: 15520
+10-18-2017 @ 18:49:45 - Update local order. Order ID: 15520
+10-18-2017 @ 18:52:07 - Update local order. Order ID: 15520
+10-18-2017 @ 18:52:19 - Update local order. Order ID: 15520
+10-18-2017 @ 21:53:02 - Notification callback for order: 1925449c-47e1-466a-9b31-a81000fb5384
+10-18-2017 @ 21:53:02 - Posted notification info: PaysonEmbedded\Checkout::__set_state(array(
+   'merchant' => 
+  PaysonEmbedded\Merchant::__set_state(array(
+     'checkoutUri' => 'http://beta.prodeff.com/checkout/?lang=en',
+     'confirmationUri' => 'http://beta.prodeff.com/checkout/order-received/15520?key=wc_order_59e43f0f1c14d&paysonorder=1925449c-47e1-466a-9b31-a81000fb5384',
+     'notificationUri' => 'http://beta.prodeff.com/wc-api/WC_Gateway_PaysonCheckout/?wc_order=15520',
+     'validationUri' => NULL,
+     'termsUri' => 'http://beta.prodeff.com/terms-and-conditions/?lang=en',
+     'reference' => '15520',
+     'partnerId' => 'Krokedil',
+     'integrationInfo' => 'PaysonCheckout2.0|1.0|NONE',
+  )),
+   'payData' => 
+  PaysonEmbedded\PayData::__set_state(array(
+     'currency' => 'sek',
+     'items' => 
+    array (
+      0 => 
+      PaysonEmbedded\OrderItem::__set_state(array(
+         'itemId' => 'a225aaa6-4ab8-410c-81af-a81000fd544a',
+         'discountRate' => 0,
+         'creditedAmount' => 0,
+         'imageUri' => NULL,
+         'name' => 'Netgear Nighthawk R7000',
+         'unitPrice' => 168.740000000000009094947017729282379150390625,
+         'quantity' => 1,
+         'taxRate' => 0.25,
+         'reference' => '15444',
+         'type' => 'physical',
+         'uri' => NULL,
+         'ean' => NULL,
+      )),
+      1 => 
+      PaysonEmbedded\OrderItem::__set_state(array(
+         'itemId' => '0e6290ee-ef8e-436e-a6b1-a81000fd544a',
+         'discountRate' => 0,
+         'creditedAmount' => 0,
+         'imageUri' => NULL,
+         'name' => 'Orders below 1500',
+         'unitPrice' => 123.75,
+         'quantity' => 1,
+         'taxRate' => 0.25,
+         'reference' => 'flexible_shipping_1_1',
+         'type' => 'physical',
+         'uri' => NULL,
+         'ean' => NULL,
+      )),
+    ),
+     'totalPriceExcludingTax' => 233.990000000000009094947017729282379150390625,
+     'totalPriceIncludingTax' => 292.490000000000009094947017729282379150390625,
+     'totalTaxAmount' => 58.5,
+     'totalCreditedAmount' => 0,
+  )),
+   'gui' => 
+  PaysonEmbedded\Gui::__set_state(array(
+     'colorScheme' => 'gray',
+     'locale' => 'en',
+     'verfication' => 'none',
+     'requestPhone' => false,
+     'countries' => 
+    array (
+      0 => 'SE',
+    ),
+  )),
+   'customer' => 
+  PaysonEmbedded\Customer::__set_state(array(
+     'city' => '',
+     'countryCode' => '',
+     'identityNumber' => '',
+     'email' => 'sambasiva@aptbeak.com',
+     'firstName' => '',
+     'lastName' => '',
+     'phone' => '',
+     'postalCode' => '',
+     'street' => '',
+     'type' => 'person',
+  )),
+   'status' => 'expired',
+   'id' => '1925449c-47e1-466a-9b31-a81000fb5384',
+   'purchaseId' => NULL,
+   'snippet' => '<div id=\'paysonContainer\'  url=\'https://embedded.payson.se/checkout?id=1925449c-47e1-466a-9b31-a81000fb5384\'></div><script type=\'text/javascript\' src=\'https://embedded.payson.se/Content/payson.js?v2\'></script>',
+   'description' => '',
+))
+10-18-2017 @ 21:53:02 - Posted reference: 15520
+10-18-2017 @ 21:53:02 - Posted status: expired
+10-20-2017 @ 10:47:00 - Update local order. Order ID: 15617
+10-20-2017 @ 13:48:01 - Notification callback for order: 3fd01e10-94b1-486c-8595-a812007807f6
+10-20-2017 @ 13:48:02 - Posted notification info: PaysonEmbedded\Checkout::__set_state(array(
+   'merchant' => 
+  PaysonEmbedded\Merchant::__set_state(array(
+     'checkoutUri' => 'http://beta.prodeff.com/checkout/',
+     'confirmationUri' => 'http://beta.prodeff.com/checkout/order-received/15617?key=wc_order_59e986cc3bb17&paysonorder=3fd01e10-94b1-486c-8595-a812007807f6',
+     'notificationUri' => 'http://beta.prodeff.com/wc-api/WC_Gateway_PaysonCheckout/?wc_order=15617',
+     'validationUri' => NULL,
+     'termsUri' => 'http://beta.prodeff.com/terms-and-conditions/',
+     'reference' => '15617',
+     'partnerId' => 'Krokedil',
+     'integrationInfo' => 'PaysonCheckout2.0|1.0|NONE',
+  )),
+   'payData' => 
+  PaysonEmbedded\PayData::__set_state(array(
+     'currency' => 'sek',
+     'items' => 
+    array (
+      0 => 
+      PaysonEmbedded\OrderItem::__set_state(array(
+         'itemId' => '8a503280-3966-41f3-a7dd-a812007807f6',
+         'discountRate' => 0,
+         'creditedAmount' => 0,
+         'imageUri' => NULL,
+         'name' => 'M VESA Flexarm 360 III Silver',
+         'unitPrice' => 498.75,
+         'quantity' => 1,
+         'taxRate' => 0.25,
+         'reference' => '15350',
+         'type' => 'physical',
+         'uri' => NULL,
+         'ean' => NULL,
+      )),
+      1 => 
+      PaysonEmbedded\OrderItem::__set_state(array(
+         'itemId' => 'fe09c4b3-7f39-443c-bed6-a812007807f6',
+         'discountRate' => 0,
+         'creditedAmount' => 0,
+         'imageUri' => NULL,
+         'name' => 'Orders below 1500',
+         'unitPrice' => 123.75,
+         'quantity' => 1,
+         'taxRate' => 0.25,
+         'reference' => 'flexible_shipping_1_1',
+         'type' => 'physical',
+         'uri' => NULL,
+         'ean' => NULL,
+      )),
+    ),
+     'totalPriceExcludingTax' => 498,
+     'totalPriceIncludingTax' => 622.5,
+     'totalTaxAmount' => 124.5,
+     'totalCreditedAmount' => 0,
+  )),
+   'gui' => 
+  PaysonEmbedded\Gui::__set_state(array(
+     'colorScheme' => 'gray',
+     'locale' => 'sv',
+     'verfication' => 'none',
+     'requestPhone' => false,
+     'countries' => 
+    array (
+      0 => 'SE',
+    ),
+  )),
+   'customer' => 
+  PaysonEmbedded\Customer::__set_state(array(
+     'city' => '',
+     'countryCode' => '',
+     'identityNumber' => '',
+     'email' => '',
+     'firstName' => '',
+     'lastName' => '',
+     'phone' => '',
+     'postalCode' => '',
+     'street' => '',
+     'type' => 'person',
+  )),
+   'status' => 'expired',
+   'id' => '3fd01e10-94b1-486c-8595-a812007807f6',
+   'purchaseId' => NULL,
+   'snippet' => '<div id=\'paysonContainer\'  url=\'https://embedded.payson.se/checkout?id=3fd01e10-94b1-486c-8595-a812007807f6\'></div><script type=\'text/javascript\' src=\'https://embedded.payson.se/Content/payson.js?v2\'></script>',
+   'description' => '',
+))
+10-20-2017 @ 13:48:02 - Posted reference: 15617
+10-20-2017 @ 13:48:02 - Posted status: expired
+10-21-2017 @ 15:54:57 - Update local order. Order ID: 15637
+10-21-2017 @ 15:55:13 - Update local order. Order ID: 15637
+10-21-2017 @ 15:56:05 - Update local order. Order ID: 15637
+10-21-2017 @ 15:56:27 - Update local order. Order ID: 15637
+10-21-2017 @ 15:57:35 - Update local order. Order ID: 15637
+10-21-2017 @ 18:58:02 - Notification callback for order: b63dc380-ea2e-46b7-9bd7-a81300cc9cc3
+10-21-2017 @ 18:58:02 - Posted notification info: PaysonEmbedded\Checkout::__set_state(array(
+   'merchant' => 
+  PaysonEmbedded\Merchant::__set_state(array(
+     'checkoutUri' => 'http://beta.prodeff.com/checkout/',
+     'confirmationUri' => 'http://beta.prodeff.com/checkout/order-received/15637?key=wc_order_59eb2078b11dc&paysonorder=b63dc380-ea2e-46b7-9bd7-a81300cc9cc3',
+     'notificationUri' => 'http://beta.prodeff.com/wc-api/WC_Gateway_PaysonCheckout/?wc_order=15637',
+     'validationUri' => NULL,
+     'termsUri' => 'http://beta.prodeff.com/terms-and-conditions/',
+     'reference' => '15637',
+     'partnerId' => 'Krokedil',
+     'integrationInfo' => 'PaysonCheckout2.0|1.0|NONE',
+  )),
+   'payData' => 
+  PaysonEmbedded\PayData::__set_state(array(
+     'currency' => 'sek',
+     'items' => 
+    array (
+      0 => 
+      PaysonEmbedded\OrderItem::__set_state(array(
+         'itemId' => 'bdf2eaba-9d33-45e5-9301-a81300cd5685',
+         'discountRate' => 0,
+         'creditedAmount' => 0,
+         'imageUri' => NULL,
+         'name' => 'AOC 24 &#8221;AGON AG241QX QHD 144Hz',
+         'unitPrice' => 4987.5,
+         'quantity' => 1,
+         'taxRate' => 0.25,
+         'reference' => '15399',
+         'type' => 'physical',
+         'uri' => NULL,
+         'ean' => NULL,
+      )),
+      1 => 
+      PaysonEmbedded\OrderItem::__set_state(array(
+         'itemId' => '75b43eb3-2662-43b2-9eb3-a81300cd5685',
+         'discountRate' => 0,
+         'creditedAmount' => 0,
+         'imageUri' => NULL,
+         'name' => 'Orders below 1500',
+         'unitPrice' => 0,
+         'quantity' => 1,
+         'taxRate' => 0,
+         'reference' => 'flexible_shipping_1_1',
+         'type' => 'physical',
+         'uri' => NULL,
+         'ean' => NULL,
+      )),
+      2 => 
+      PaysonEmbedded\OrderItem::__set_state(array(
+         'itemId' => '6a1ac134-835d-4485-acfb-a81300cd5685',
+         'discountRate' => 0,
+         'creditedAmount' => 0,
+         'imageUri' => NULL,
+         'name' => 'Acer 24 &#8221;Predator XB241YU',
+         'unitPrice' => 6862.5,
+         'quantity' => 1,
+         'taxRate' => 0.25,
+         'reference' => '15401',
+         'type' => 'physical',
+         'uri' => NULL,
+         'ean' => NULL,
+      )),
+    ),
+     'totalPriceExcludingTax' => 9480,
+     'totalPriceIncludingTax' => 11850,
+     'totalTaxAmount' => 2370,
+     'totalCreditedAmount' => 0,
+  )),
+   'gui' => 
+  PaysonEmbedded\Gui::__set_state(array(
+     'colorScheme' => 'gray',
+     'locale' => 'sv',
+     'verfication' => 'none',
+     'requestPhone' => false,
+     'countries' => 
+    array (
+      0 => 'SE',
+    ),
+  )),
+   'customer' => 
+  PaysonEmbedded\Customer::__set_state(array(
+     'city' => 'Västra Frölunda',
+     'countryCode' => 'SE',
+     'identityNumber' => '8511101332',
+     'email' => 'allenkalasho@hotmail.com',
+     'firstName' => 'Allen',
+     'lastName' => 'Kalasho',
+     'phone' => NULL,
+     'postalCode' => '42161',
+     'street' => 'Grevegårdsvägen 224 Lgh 1101',
+     'type' => 'person',
+  )),
+   'status' => 'expired',
+   'id' => 'b63dc380-ea2e-46b7-9bd7-a81300cc9cc3',
+   'purchaseId' => NULL,
+   'snippet' => '<div id=\'paysonContainer\'  url=\'https://embedded.payson.se/checkout?id=b63dc380-ea2e-46b7-9bd7-a81300cc9cc3\'></div><script type=\'text/javascript\' src=\'https://embedded.payson.se/Content/payson.js?v2\'></script>',
+   'description' => '',
+))
+10-21-2017 @ 18:58:02 - Posted reference: 15637
+10-21-2017 @ 18:58:02 - Posted status: expired
+10-25-2017 @ 13:15:05 - Update local order. Order ID: 16528
+10-25-2017 @ 16:16:03 - Notification callback for order: 6c3feba6-7e52-4769-a3d2-a81700a0b3b8
+10-25-2017 @ 16:16:03 - Posted notification info: PaysonEmbedded\Checkout::__set_state(array(
+   'merchant' => 
+  PaysonEmbedded\Merchant::__set_state(array(
+     'checkoutUri' => 'http://beta.prodeff.com/checkout/?lang=en',
+     'confirmationUri' => 'http://beta.prodeff.com/checkout/order-received/16528?lang=en&key=wc_order_59f04100b2743&paysonorder=6c3feba6-7e52-4769-a3d2-a81700a0b3b8',
+     'notificationUri' => 'http://beta.prodeff.com/wc-api/WC_Gateway_PaysonCheckout/?wc_order=16528',
+     'validationUri' => NULL,
+     'termsUri' => 'http://beta.prodeff.com/terms-and-conditions/?lang=en',
+     'reference' => '16528',
+     'partnerId' => 'Krokedil',
+     'integrationInfo' => 'PaysonCheckout2.0|1.0|NONE',
+  )),
+   'payData' => 
+  PaysonEmbedded\PayData::__set_state(array(
+     'currency' => 'sek',
+     'items' => 
+    array (
+      0 => 
+      PaysonEmbedded\OrderItem::__set_state(array(
+         'itemId' => '340a50d1-df9e-4db5-9966-a81700a0b3b8',
+         'discountRate' => 0,
+         'creditedAmount' => 0,
+         'imageUri' => NULL,
+         'name' => 'Free Shipping Above 1500',
+         'unitPrice' => 123.75,
+         'quantity' => 1,
+         'taxRate' => 0.25,
+         'reference' => 'flexible_shipping_1_1',
+         'type' => 'physical',
+         'uri' => NULL,
+         'ean' => NULL,
+      )),
+      1 => 
+      PaysonEmbedded\OrderItem::__set_state(array(
+         'itemId' => '388abc9c-fa94-4e3d-ae9d-a81700a0b3b8',
+         'discountRate' => 0,
+         'creditedAmount' => 0,
+         'imageUri' => NULL,
+         'name' => 'NZXT Noctis 450 - Matte B',
+         'unitPrice' => 1299,
+         'quantity' => 1,
+         'taxRate' => 0.25,
+         'reference' => '16127',
+         'type' => 'physical',
+         'uri' => NULL,
+         'ean' => NULL,
+      )),
+    ),
+     'totalPriceExcludingTax' => 1138.200000000000045474735088646411895751953125,
+     'totalPriceIncludingTax' => 1422.75,
+     'totalTaxAmount' => 284.55000000000001136868377216160297393798828125,
+     'totalCreditedAmount' => 0,
+  )),
+   'gui' => 
+  PaysonEmbedded\Gui::__set_state(array(
+     'colorScheme' => 'gray',
+     'locale' => 'en',
+     'verfication' => 'none',
+     'requestPhone' => false,
+     'countries' => 
+    array (
+      0 => 'SE',
+    ),
+  )),
+   'customer' => 
+  PaysonEmbedded\Customer::__set_state(array(
+     'city' => '',
+     'countryCode' => '',
+     'identityNumber' => '',
+     'email' => 'sambasiva@aptbeak.com',
+     'firstName' => '',
+     'lastName' => '',
+     'phone' => '',
+     'postalCode' => '',
+     'street' => '',
+     'type' => 'person',
+  )),
+   'status' => 'expired',
+   'id' => '6c3feba6-7e52-4769-a3d2-a81700a0b3b8',
+   'purchaseId' => NULL,
+   'snippet' => '<div id=\'paysonContainer\'  url=\'https://embedded.payson.se/checkout?id=6c3feba6-7e52-4769-a3d2-a81700a0b3b8\'></div><script type=\'text/javascript\' src=\'https://embedded.payson.se/Content/payson.js?v2\'></script>',
+   'description' => '',
+))
+10-25-2017 @ 16:16:03 - Posted reference: 16528
+10-25-2017 @ 16:16:03 - Posted status: expired

@@ -32,7 +32,7 @@ if ( is_user_logged_in() ) {
 	<?php echo ( $message ) ? wpautop( wptexturize( $message ) ) : ''; ?>
 
 	<p class="form-row form-row-first">
-		<label for="username"><?php _e( 'Username or email', 'woocommerce' ); ?> <span class="required">*</span></label>
+		<label for="username"><?php _e( 'email', 'woocommerce' ); ?> <span class="required">*</span></label>
 		<input type="text" class="input-text" name="username" id="username" />
 	</p>
 	<p class="form-row form-row-last">
