@@ -1,10 +1,5 @@
-<<<<<<< HEAD
 # Translation of WordPress - 4.9.x - Development - Continents & Cities in Swedish
 # This file is distributed under the same license as the WordPress - 4.9.x - Development - Continents & Cities package.
-=======
-# Translation of WordPress - 4.8.x - Continents & Cities in Swedish
-# This file is distributed under the same license as the WordPress - 4.8.x - Continents & Cities package.
->>>>>>> f68fd62238210390f27a496cda9721686ae60dc2
 msgid ""
 msgstr ""
 "PO-Revision-Date: 2016-07-03 20:54:18+0000\n"
@@ -14,11 +9,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: GlotPress/2.4.0-alpha\n"
 "Language: sv_SE\n"
-<<<<<<< HEAD
 "Project-Id-Version: WordPress - 4.9.x - Development - Continents & Cities\n"
-=======
-"Project-Id-Version: WordPress - 4.8.x - Continents & Cities\n"
->>>>>>> f68fd62238210390f27a496cda9721686ae60dc2
 
 #: wp-admin/includes/continents-cities.php:537
 msgid "Pohnpei"
